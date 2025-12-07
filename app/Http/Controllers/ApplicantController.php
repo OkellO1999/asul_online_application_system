@@ -193,7 +193,7 @@ class ApplicantController extends Controller
         ]);
 
         // Update application status
-        $application->update(['status' => 'payment_pending']);
+        $application->update(['status' => 'under_review']);
 
         // In a real system, you would integrate with actual payment gateway here
         // For demo purposes, we'll simulate successful payment
