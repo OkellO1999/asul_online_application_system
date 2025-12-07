@@ -80,7 +80,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
-            'role' => 'admin',
+            'role' => 'applicant',
             'password' => Hash::make($request->password),
         ]);
 
