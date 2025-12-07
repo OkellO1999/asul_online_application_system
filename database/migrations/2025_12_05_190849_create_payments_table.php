@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up()
+    {
+        Schema::create('payments', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('application_id')->constrained()->onDelete('cascade');
+            $table->string('transaction_id')->unique();
+            $table->decimal('amount', 8, 2);
+            $table->enum('method', ['mtn_mobile_money', 'airtel_money', 'bank']);
+            $table->string('phone_number')->nullable();
+            $table->enum('status', ['pending', 'completed', 'failed'])->default('pending');
+            $table->timestamps();
+        });
+    }
+
+    public function down()
+    {
+        Schema::dropIfExists('payments');
+    }
+};
