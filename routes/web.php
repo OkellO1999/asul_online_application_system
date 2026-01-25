@@ -11,6 +11,34 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+// new routes
+Route::get('/career', function () {
+    return view('career');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/admissions', function () {
+    return view('admissions');
+});
+Route::get('/academics', function () {
+    return view('academics');
+});
+Route::get('/article', function () {
+    return view('artical');
+});
+Route::get('/news', function () {
+    return view('news');
+});
+Route::get('/team', function () {
+    return view('team');
+});
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+
+
 // Authentication routes
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);

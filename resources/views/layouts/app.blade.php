@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASUL Application Portal</title>
+    <title>Okss Application Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         :root {
-            --primary-green: #00aa74;
-            --secondary-purple: #6322a3;
+            --primary-green: #800000;
+            --secondary-purple: #3a18fcdc;
         }
         .bg-primary { background-color: var(--primary-green); }
         .text-primary { color: var(--primary-green); }
@@ -22,9 +22,9 @@
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
                     <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-                        <img src="{{asset('images/logo.png')}}" alt="ASUL" srcset="" class="w-12 h-12 rounded-full">
+                        <img src="{{asset('images/logo.png')}}" alt="OKSS" srcset="" class="w-12 h-12 rounded-full">
                     </div>
-                    <span class="text-xl font-bold">ASUL Application Portal</span>
+                    <span class="text-xl font-bold">Okwang ss Application Portal</span>
                 </div>
                 <div class="flex items-center space-x-4">
                     @auth
@@ -83,7 +83,7 @@
 
     <footer class="bg-primary text-white py-4 mt-8">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <p>&copy; {{ date('Y') }} All Saints University - Lango. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Okwang Secondary School - Otuke. All rights reserved.</p>
         </div>
     </footer>
 </body>

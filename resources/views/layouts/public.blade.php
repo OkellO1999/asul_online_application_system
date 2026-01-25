@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'ASUL - All Saints University Lango')</title>
+    <title>@yield('title', 'OKSS - Okwang Secondary School')</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary-green: #1e6b52;
-            --secondary-purple: #4b286d;
+            --primary-green: #800000;
+            --secondary-purple: #0f0f44;
             --light-green: #e8f5e9;
             --light-purple: #f3e5f5;
         }
@@ -42,8 +42,8 @@
                         <img src="{{asset('images/logo.png')}}" alt="ASUL" srcset="">
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold text-primary">All Saints University</h1>
-                        <p class="text-sm text-gray-600">- Lango, Northern Uganda</p>
+                        <h1 class="text-xl font-bold text-primary">Okwang Secondary School</h1>
+                        <p class="text-sm text-gray-600">- Otuke, Northern Uganda</p>
                     </div>
                 </div>
 
@@ -106,15 +106,15 @@
                 <div>
                     <div class="flex items-center space-x-3 mb-4">
                         <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                            <span class="text-white font-bold">AS</span>
+                            <span class="text-white font-bold">OKSS</span>
                         </div>
                         <div>
-                            <h3 class="font-bold">ASUL</h3>
-                            <p class="text-sm text-gray-400">Lango, Uganda</p>
+                            <h3 class="font-bold">Okwang Secondary School</h3>
+                            <p class="text-sm text-gray-400">Otuke, Northern Uganda</p>
                         </div>
                     </div>
                     <p class="text-gray-400 text-sm">
-                        All Saints University - Lango is a premier institution of higher learning committed to academic excellence and Christian values.
+                        Okwang Secondary School is a premier institution of higher learning committed to academic excellence and Christian values.
                     </p>
                 </div>
 
@@ -144,7 +144,7 @@
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-envelope text-primary"></i>
-                            <span class="text-gray-400">info@asul.ac.ug</span>
+                            <span class="text-gray-400">info@okss.ac.ug</span>
                         </li>
                     </ul>
                 </div>
@@ -163,8 +163,8 @@
             </div>
 
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-                <p>&copy; {{ date('Y') }} All Saints University - Lango. All rights reserved.</p>
-                <p class="mt-2">Founded under the Church of Uganda | Transforming Lives Through Quality Education</p>
+                <p>&copy; {{ date('Y') }} Okwang Secondary School. All rights reserved.</p>
+                <p class="mt-2">Educate For a purpose</p>
             </div>
         </div>
     </footer>

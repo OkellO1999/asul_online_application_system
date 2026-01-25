@@ -14,7 +14,7 @@
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
         @else
-            <style><!DOCTYPE html>
+<style><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +38,7 @@
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
                     <img src="/logo.png" alt="ASUL Logo" class="h-10">
-                    <span class="text-xl font-bold">ASUL Application Portal</span>
+                    <span class="text-xl font-bold">OKSS Application Portal</span>
                 </div>
                 <div class="flex items-center space-x-4">
                     @auth
@@ -61,7 +61,7 @@
 
     <footer class="bg-primary text-white py-4 mt-8">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <p>&copy; {{ date('m') }} All Saints University - Lango. All rights reserved.</p>
+            <p>&copy; {{ date('m') }} Okwang Secondary School.</p>
         </div>
     </footer>
 </body>
