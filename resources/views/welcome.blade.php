@@ -11,10 +11,10 @@
                 <span class="font-bold mr-3"><i class="fas fa-bullhorn mr-2"></i>NEWS:</span>
                 <div class="overflow-hidden">
                     <div class="animate-marquee whitespace-nowrap">
-                        <span class="mx-8">🎓 2024 Admissions Now Open! Apply Online Today</span>
+                        <span class="mx-8">🎓 2026 Admissions Now Open! Apply Online Today</span>
                         <span class="mx-8">🏆 Our Students Win Regional Science Competition</span>
-                        <span class="mx-8">📅 Parent-Teacher Conference: June 15th, 2024</span>
-                        <span class="mx-8">🎨 Annual Cultural Day: July 20th, 2024</span>
+                        <span class="mx-8">📅 Parent-Teacher Conference: June 15th, 2026</span>
+                        <span class="mx-8">🎨 Annual Cultural Day: July 20th, 2026</span>
                     </div>
                 </div>
             </div>
@@ -77,10 +77,10 @@
                                     <div>
                                         <div class="flex items-center mb-2">
                                             <span class="bg-red-800 text-white text-xs px-2 py-1 rounded mr-3">NEW</span>
-                                            <span class="text-gray-300 text-sm"><i class="far fa-clock mr-1"></i> May 15, 2024</span>
+                                            <span class="text-gray-300 text-sm"><i class="far fa-clock mr-1"></i> May 15, 2026</span>
                                         </div>
-                                        <h3 class="font-bold text-lg mb-2">2024 Admissions Now Open</h3>
-                                        <p class="text-gray-200 text-sm">Applications for S1, S5 and other classes are now being accepted for the 2024 academic year.</p>
+                                        <h3 class="font-bold text-lg mb-2">2026 Admissions Now Open</h3>
+                                        <p class="text-gray-200 text-sm">Applications for S1, S5 and other classes are now being accepted for the 2026 academic year.</p>
                                         <a href="#" class="text-yellow-300 text-sm font-medium mt-2 inline-block hover:underline">Read More →</a>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@
                                     <div>
                                         <div class="flex items-center mb-2">
                                             <span class="bg-blue-800 text-white text-xs px-2 py-1 rounded mr-3">AWARD</span>
-                                            <span class="text-gray-300 text-sm"><i class="far fa-clock mr-1"></i> May 10, 2024</span>
+                                            <span class="text-gray-300 text-sm"><i class="far fa-clock mr-1"></i> May 10, 2026</span>
                                         </div>
                                         <h3 class="font-bold text-lg mb-2">Regional Science Competition Winners</h3>
                                         <p class="text-gray-200 text-sm">Our students won 3 gold medals at the Northern Region Science Competition held in Lira.</p>
@@ -113,7 +113,7 @@
                                     <div>
                                         <div class="flex items-center mb-2">
                                             <span class="bg-green-800 text-white text-xs px-2 py-1 rounded mr-3">EVENT</span>
-                                            <span class="text-gray-300 text-sm"><i class="far fa-clock mr-1"></i> June 15, 2024</span>
+                                            <span class="text-gray-300 text-sm"><i class="far fa-clock mr-1"></i> June 15, 2026</span>
                                         </div>
                                         <h3 class="font-bold text-lg mb-2">Parent-Teacher Conference</h3>
                                         <p class="text-gray-200 text-sm">Annual parent-teacher conference to discuss student progress and school development.</p>
@@ -173,7 +173,7 @@
                 <div class="news-card bg-gray-50 rounded-xl overflow-hidden border border-gray-200 hover:border-maroon transition-all duration-300">
                     <div class="h-48 bg-gradient-to-r from-maroon to-red-700 relative overflow-hidden">
                         <div class="absolute top-4 left-4 bg-white text-maroon px-3 py-1 rounded-full text-sm font-bold">
-                            <i class="fas fa-calendar-alt mr-1"></i> June 20, 2024
+                            <i class="fas fa-calendar-alt mr-1"></i> June 20, 2026
                         </div>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <span class="bg-yellow-500 text-black text-xs px-2 py-1 rounded">UPCOMING EVENT</span>
@@ -192,7 +192,7 @@
                 <div class="news-card bg-gray-50 rounded-xl overflow-hidden border border-gray-200 hover:border-maroon transition-all duration-300">
                     <div class="h-48 bg-gradient-to-r from-school-blue to-blue-700 relative overflow-hidden">
                         <div class="absolute top-4 left-4 bg-white text-school-blue px-3 py-1 rounded-full text-sm font-bold">
-                            <i class="fas fa-calendar-alt mr-1"></i> May 5, 2024
+                            <i class="fas fa-calendar-alt mr-1"></i> May 5, 2026
                         </div>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <span class="bg-green-500 text-white text-xs px-2 py-1 rounded">ACHIEVEMENT</span>
@@ -211,7 +211,7 @@
                 <div class="news-card bg-gray-50 rounded-xl overflow-hidden border border-gray-200 hover:border-maroon transition-all duration-300">
                     <div class="h-48 bg-gradient-to-r from-purple-700 to-purple-900 relative overflow-hidden">
                         <div class="absolute top-4 left-4 bg-white text-purple-700 px-3 py-1 rounded-full text-sm font-bold">
-                            <i class="fas fa-calendar-alt mr-1"></i> April 28, 2024
+                            <i class="fas fa-calendar-alt mr-1"></i> April 28, 2026
                         </div>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <span class="bg-red-500 text-white text-xs px-2 py-1 rounded">IMPORTANT</span>
@@ -363,7 +363,7 @@
     <section id="admissions" class="gradient-bg text-white py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold mb-4">Admissions Open for 2024 Academic Year</h2>
+                <h2 class="text-3xl font-bold mb-4">Admissions Open for 2026 Academic Year</h2>
                 <p class="text-xl max-w-2xl mx-auto text-gray-100">Join our community of learners. Applications for S1, S5 and other classes are now being accepted.</p>
             </div>
 
@@ -376,7 +376,7 @@
                     <h3 class="text-xl font-bold mb-4">Submit Application</h3>
                     <p class="text-gray-200">Complete the online or paper application form with required documents</p>
                     <div class="mt-6">
-                        <span class="bg-white/20 px-4 py-2 rounded-lg text-sm">Deadline: June 30, 2024</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-lg text-sm">Deadline: June 30, 2026</span>
                     </div>
                 </div>
 
@@ -388,7 +388,7 @@
                     <h3 class="text-xl font-bold mb-4">Entrance Examination</h3>
                     <p class="text-gray-200">Take our entrance assessment at the school premises on scheduled dates</p>
                     <div class="mt-6">
-                        <span class="bg-white/20 px-4 py-2 rounded-lg text-sm">Date: July 15, 2024</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-lg text-sm">Date: July 15, 2026</span>
                     </div>
                 </div>
 
@@ -400,7 +400,7 @@
                     <h3 class="text-xl font-bold mb-4">Interview & Admission</h3>
                     <p class="text-gray-200">Final interview and issuance of admission letters to successful candidates</p>
                     <div class="mt-6">
-                        <span class="bg-white/20 px-4 py-2 rounded-lg text-sm">Starts: August 1, 2024</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-lg text-sm">Starts: August 1, 2026</span>
                     </div>
                 </div>
             </div>
