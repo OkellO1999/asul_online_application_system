@@ -111,7 +111,7 @@
 
                     <!-- Academic Records - O Level -->
                     <div class="mb-8">
-                        <h3 class="text-lg font-medium text-gray-900 border-b pb-2 mb-4">O-Level (UCE) Academic Records</h3>
+                        <h3 class="text-lg font-medium text-gray-900 border-b pb-2 mb-4">PLE Academic Records</h3>
                         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                             <div>
                                 <label for="olevel_school" class="block text-sm font-medium text-gray-700">School Name</label>
@@ -138,7 +138,7 @@
                             </div>
 
                             <div class="sm:col-span-2">
-                                <label for="olevel_certificate" class="block text-sm font-medium text-gray-700">UCE Certificate/Transcript</label>
+                                <label for="olevel_certificate" class="block text-sm font-medium text-gray-700">PLE Slip</label>
                                 <input type="file" name="academic_records[olevel][certificate]" id="olevel_certificate" accept=".pdf,.jpg,.jpeg,.png" required
                                     class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
                                 <p class="mt-1 text-xs text-gray-500">PDF, JPG, PNG format, max 2MB</p>
@@ -148,7 +148,7 @@
 
                     <!-- Academic Records - A Level -->
                     <div class="mb-8">
-                        <h3 class="text-lg font-medium text-gray-900 border-b pb-2 mb-4">A-Level (UACE) Academic Records</h3>
+                        <h3 class="text-lg font-medium text-gray-900 border-b pb-2 mb-4">O-level (UCE) Academic Records</h3>
                         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                             <div>
                                 <label for="alevel_school" class="block text-sm font-medium text-gray-700">School Name</label>
@@ -169,13 +169,13 @@
                             </div>
 
                             <div>
-                                <label for="alevel_grades" class="block text-sm font-medium text-gray-700">Principal Subjects & Grades</label>
+                                <label for="alevel_grades" class="block text-sm font-medium text-gray-700">Grades</label>
                                 <input type="text" name="academic_records[alevel][grades]" id="alevel_grades" value="{{ old('academic_records.alevel.grades') }}" required
                                     class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
                             </div>
 
                             <div class="sm:col-span-2">
-                                <label for="alevel_certificate" class="block text-sm font-medium text-gray-700">UACE Certificate/Transcript</label>
+                                <label for="alevel_certificate" class="block text-sm font-medium text-gray-700">UCE Certificate/Transcript</label>
                                 <input type="file" name="academic_records[alevel][certificate]" id="alevel_certificate" accept=".pdf,.jpg,.jpeg,.png" required
                                     class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
                                 <p class="mt-1 text-xs text-gray-500">PDF, JPG, PNG format, max 2MB</p>
